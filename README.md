@@ -1,5 +1,5 @@
 # mamikos-technicaltest
-
+this is mini project for mamikos technical tests. filter the list of names from array with realtime filtering and case-insensitive
 ## Project setup
 ```
 npm install
