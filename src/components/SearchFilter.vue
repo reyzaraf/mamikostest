@@ -44,7 +44,7 @@
     computed: {
       filteredlistnames() {
         // function to filter list names from array listnames
-        return this.listnames.filter(listname => listname.name.toLowerCase().includes(this.search));
+        return this.listnames.filter(listname => listname.name.toLowerCase().includes(this.search.toLowerCase()));
       }
     }
   };
